@@ -1,0 +1,62 @@
+.row {
+  margin: 8px 200px 8px -40px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 10px 20px 40px 20px;
+}
+
+/* Create two equal columns that float next to each other */
+.column {
+  float: left;
+  width:250px;
+  margin: auto;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h3 {
+  position: absolute;
+  top: 140px;
+  left: 10px;
+  width: 230px;
+  background-color: #4aaaa5;
+  padding: 15px;
+  z-index: 1;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+/* Content */
+.content {
+  position: relative;
+  background-color: white;
+  padding: 10px;
+  width:250px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 980px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 640px) {
+  .column {
+    width: 100%;
+  }
+}
