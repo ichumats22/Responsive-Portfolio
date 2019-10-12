@@ -205,7 +205,7 @@ footer {
   
   h1 {
     float:left;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 40px;
     padding: 20px;
   }
 
@@ -213,6 +213,16 @@ footer {
     position: relative;
     min-width: 749px;
     max-width: 960px;
+  }
+
+  .form {
+    width: 700px;
+    float: left;
+    margin: 0 20px 0 40px;
+  }
+
+  footer {
+    margin: 250px 0 0 0;
   }
 }
 
@@ -240,6 +250,16 @@ footer {
     position: relative;
     min-width: 620px;
     max-width: 748px;
+  }
+
+  .form {
+    width: 728px;
+    float: left;
+    margin: 0 20px 0 20px;
+  }
+
+  footer {
+    margin: 250px 0 0 0;
   }
 }
 
@@ -272,5 +292,9 @@ footer {
     width: 540px;
     height: auto;
     margin:10px;
+  }
+
+  .form {
+    max-width: 600px;
   }
 }
