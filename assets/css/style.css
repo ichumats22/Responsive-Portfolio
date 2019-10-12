@@ -48,7 +48,7 @@ h1 {
   width:auto;
   height: 75px;
   padding: 20px 20px 20px 20px;
-  margin:0px 0px 0px 230px;
+  margin:0 0 0 5%;
   text-align: center;
 }
 
@@ -64,7 +64,7 @@ h2 {
   background-color: #ffffff; 
   list-style-type: none;
   text-align: center;
-  margin: 0 220px 0 0;
+  margin: 0 5% 0 0;
   padding: 0;
   color: #777777;
   float:right;
@@ -211,8 +211,10 @@ footer {
 
   .bio {
     position: relative;
-    min-width: 749px;
-    max-width: 960px;
+    width: 700px;
+    float: left;
+    margin: 0 20px 0 40px;
+  
   }
 
   .form {
@@ -296,5 +298,11 @@ footer {
 
   .form {
     max-width: 600px;
+  }
+
+  footer {
+    margin:250px 0 0 0;
+    position: static;
+    width: 640px;
   }
 }
