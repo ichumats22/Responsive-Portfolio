@@ -45,18 +45,87 @@ h3 {
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 980px) {
+  header {
+    position:static;
+  }
+
+  .top_nav, h1 {
+    display: inline-block;
+    width:auto;
+    position: static;
+    margin:0px;
+    padding: 0px;
+    float: right;
+  }
+  
+  h1 {
+    float:left;
+    margin: 0 0 0 20px;
+    padding: 20px;
+  }
+  
+  .container {
+    width: 700px;
+    margin: 0 0 0 20px;
+    float: left;
+  }
+
   .column {
     width: 50%;
   }
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    position:static;
+  }
+
+  .top_nav, h1 {
+    display: inline-block;
+    width:auto;
+    position: static;
+    margin:0px;
+    padding: 0px;
+    float: right;
+  }
   
+  h1 {
+    float:left;
+    margin: 0 0 0 20px;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 740px;
+    margin: auto;
+    float: none;
+    }
+  }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 640px) {
+  header {
+    position:static;
+  }
+
+  .top_nav, h1 {
+    display: block;
+    width:640px;
+    position: static;
+    margin:0px;
+    padding: 0px;
+    float: none;
+  }
+  
+  h1 {
+    float:left;
+    padding: 20px;
+  }
+  
+  
   .column {
     width: 100%;
   }
+
 }
