@@ -186,16 +186,91 @@ footer {
   flex-shrink: 0;
   position: relative;
   z-index: 1;
+  margin: 50px 0 0 0;
 }
 
 @media screen and (max-width: 980px) {
+  header {
+    position:static;
+  }
+
+  .top_nav, h1 {
+    display: inline-block;
+    width:auto;
+    position: static;
+    margin:0px;
+    padding: 0px;
+    float: right;
+  }
   
+  h1 {
+    float:left;
+    margin: 0 0 0 20px;
+    padding: 20px;
+  }
+
+  .bio {
+    position: relative;
+    min-width: 749px;
+    max-width: 960px;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    position:static;
+  }
+
+  .top_nav, h1 {
+    display: inline-block;
+    width:auto;
+    position: static;
+    margin:0px;
+    padding: 0px;
+    float: right;
+  }
   
+  h1 {
+    float:left;
+    margin: 0 0 0 20px;
+    padding: 20px;
+  }
+
+  .bio {
+    position: relative;
+    min-width: 620px;
+    max-width: 748px;
+  }
 }
 
 @media screen and (max-width: 640px) {
+  header {
+    position:static;
+  }
+
+  .top_nav, h1 {
+    display: block;
+    width:640px;
+    position: static;
+    margin:0px;
+    padding: 0px;
+    float: none;
+  }
   
+  h1 {
+    float:left;
+    padding: 20px;
+  }
+
+  .bio {
+    position: relative;
+    max-width: 620px;
+  }
+
+  .bio-photo {
+    float: none;
+    width: 540px;
+    height: auto;
+    margin:10px;
+  }
 }
